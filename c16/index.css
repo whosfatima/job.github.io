@@ -1,0 +1,105 @@
+@font-face{
+    font-family:"diroz";
+    src:url(diroz.ttf) format("truetype");
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header {
+    height: 80px;
+/*    background-color: lightgray;*/
+    display: flex;
+    direction: rtl;
+  
+}
+.header .h2-header{
+    padding: 20px;
+    font-family: diroz;
+    font-weight: bold;
+    color: #5660f2;
+}
+.header .ul-header {
+    padding: 20px;
+}
+.ul-header li {
+    font-size: 15px;
+    font-family: diroz;
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+}
+.ul-header li a {
+    text-decoration: none;
+    color: black;
+}
+.ul-header li a:hover{
+    color: #5660f2;
+}
+.header .para-header {
+    color: white;
+    margin: 20px 1px 0px 40px;
+    font-family: diroz;
+    font-size: 15px;
+    cursor: pointer;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    background-color:#f55353; 
+}
+.header .para-header:hover{
+    background-color: darkred;
+}
+/*
+.header .box {
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 30px;
+    padding: 5px;
+    
+}
+
+*/
+.header .box {
+    position: relative;
+}
+.header .box img {
+   position: absolute;
+    top: 26px;
+    right: 100px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.header .box button {
+    font-family: diroz;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 90px;
+    border: 0px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #dde1e6;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    cursor: pointer;
+}
+.header .box2 {
+    font-size: 25px;
+    color: #dde1e6;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+.header p {
+    font-family: diroz;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.header p:hover {
+    color: #5660f2;
+}
